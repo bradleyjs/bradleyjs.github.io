@@ -3,7 +3,7 @@ Global CSS for wedding page
 */
 
 .default {
-    font-family: "Optima", "serif";
+    font-family: "serif";
     font-size: 1em;
 }
 
@@ -67,7 +67,7 @@ img.centered {
 }
 
 #container {
-    width: 700px;
+    width: 35em;
     margin-left: auto;
     margin-right: auto;
 }
