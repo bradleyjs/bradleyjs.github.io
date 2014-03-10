@@ -2,8 +2,8 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
-  <title>Welcome</title>
-  <link rel="stylesheet" type="text/css" href="css/web.css" />
+  <title>{{page.title}}</title>
+  <link rel="stylesheet" type="text/css" href="web.css" />
 
 </head>
 <body class="default">
@@ -15,8 +15,7 @@
   </div>
 
   <div id="content">
-    Hello, world!
-
+    {{content}}
   </div>
   
   <div id="footer">
