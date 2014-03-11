@@ -3,10 +3,19 @@ layout: default
 title: Welcome
 ---
 
-<h1>Hi</h1>
+<!-- <h1>Hi</h1> -->
 
-<p>Here's some math:
-  <a href="http://en.wikipedia.org/wiki/Euler's_identity">
-    \[e^{i\pi} + 1 = 0\]</a>
-  \[\int_0^1\,x^2\, dx\]
-</p>
+<!-- <p>Here's some math: -->
+<!--   <a href="http://en.wikipedia.org/wiki/Euler's_identity"> -->
+<!--     \[e^{i\pi} + 1 = 0\]</a> -->
+<!--   \[\int_0^1\,x^2\, dx\] -->
+<!-- </p> -->
+
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
